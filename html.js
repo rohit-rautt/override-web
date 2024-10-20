@@ -17,7 +17,7 @@ const processHtmlFile = async (filePath) => {
         let updatedHtml = removeCspMetaTag(data);
         updatedHtml = replaceString(updatedHtml);
         await fs.writeFile(filePath, updatedHtml, 'utf8');
-        console.log('File updated successfully!');
+        console.log('File updated successfully!!');
     } catch (error) {
         console.error(`Error processing the file: ${error.message}`);
     }
