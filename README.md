@@ -1,4 +1,4 @@
-# Setting Up a JavaScript Script in Fish Shell
+# Add node script as gloabl cmd
 
 This guide explains how to make your JavaScript script executable from anywhere in the Fish shell.
 
